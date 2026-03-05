@@ -1,4 +1,6 @@
-﻿namespace Algorithms
+﻿using System.Text;
+
+namespace Algorithms
 {
     internal class Program
     {
@@ -206,6 +208,114 @@
             //int edediorta = cem / ededler.Length;
             //Console.WriteLine("Ededi orta:" + " " + edediorta);
 
+
+            // 16 _____________________
+
+            //int eded = Convert.ToInt32(Console.ReadLine());
+            //bool isPrime = false;
+            //for (int i = 2; i < eded; i++)
+            //{
+            //    if (eded % i == 0) { isPrime = false; break; }
+            //    else isPrime = true;
+            //}
+
+            //if (!isPrime) Console.WriteLine("Prime Deyil");
+            //else Console.WriteLine("Primedir");
+
+
+
+
+            // 17 _____________________
+
+            //int[] arr = [23, 60, 12, 43, 56, 100, 23, 43, 21, 36, 72];
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i]%6==0)
+            //    {
+            //        Console.WriteLine(arr[i]);
+            //    }
+            //}
+
+            // 18 _____________________ Calculator qalib
+
+            //Console.WriteLine("ilk ededi daxil edin:");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("ikinci ededi daxil edin:");
+            //int b = Convert.ToInt32(Console.ReadLine());
+
+            // 19 _____________________
+
+            //double[] productsprice = [100.0, 1300.50, 259.99, 430.30, 168.99, 320.0];
+            //double discount = 0.2;
+            //for (int i = 0; i < productsprice.Length; i++)
+            //{
+            //    double newprice = productsprice[i] - (productsprice[i] * discount);
+            //    Console.WriteLine(newprice);
+            //}
+
+            // 20 _____________________
+
+            //int[] isciyasi = [23, 34, 19, 65, 40, 66, 29, 35, 67, 64, 60, 32, 57];
+            //for (int i = 0; i < isciyasi.Length; i++)
+            //{
+            //    if (isciyasi[i] >= 65)
+            //    {
+            //        Console.WriteLine(isciyasi[i] + " " + "Teqaude Ayrildiniz");
+            //    }
+            //}
+
+            // 21 _____________________
+
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //int c = Convert.ToInt32(Console.ReadLine());
+            //int kvadratcem = (a * a) + (b * b);
+            //if (c*c == kvadratcem)
+            //{
+            //    Console.WriteLine("Duzbucaqli Ucbucaqdir");
+            //}
+            //else if (a == b && a == c && b == c)
+            //{
+            //    Console.WriteLine("Beraberterefli Ucbucaqdir");
+            //}
+            //else if (a == b || a == c || b == c)
+            //{
+            //    Console.WriteLine("Beraberyanli Ucbucaqdir");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Muxtelifterefli Ucbucaqdir");
+            //}
+
+            // 22 _____________________
+
+            for (int i = 0; i < 100; i++)
+            {
+                int teyinolunmus = 34;
+                Console.WriteLine(i);
+                for (int say = 1; say <= 5; say++)
+                {
+                    int eded = Convert.ToInt32(Console.ReadLine());
+                    if (eded == teyinolunmus)
+                    {
+                        Console.WriteLine("You Won");
+                        break;
+                    }
+                    else if(say == 5)
+                    {
+                        Console.WriteLine("Game Over");
+                    }
+                }  
+                break;
+            }
+
+            // 23 _____________________
+
+            // Kvadratin, duzbucaqli dordbucagin, ucbucagin sahelerini hesablayan alqoritm yazin
+
+            // 24 _____________________
+
+            // Verilmis ededin polindron oldugunu yoxlayin (1221, 3443) (String convertsiz)
         }
     }
 }

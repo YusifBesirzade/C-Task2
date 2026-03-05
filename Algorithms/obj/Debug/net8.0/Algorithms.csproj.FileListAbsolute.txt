@@ -7,6 +7,7 @@ C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\Algor
 C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\Algorithms.AssemblyInfoInputs.cache
 C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\Algorithms.AssemblyInfo.cs
 C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\Algorithms.sourcelink.json
 C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\Algorithms.dll
 C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\refint\Algorithms.dll
 C:\Users\Classtime.PC_6_213_9\Desktop\Yusif\C#\Algorithms\obj\Debug\net8.0\Algorithms.pdb
