@@ -236,12 +236,42 @@ namespace Algorithms
             //    }
             //}
 
-            // 18 _____________________ Calculator qalib
+            // 18 _____________________
 
             //Console.WriteLine("ilk ededi daxil edin:");
             //int a = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("ikinci ededi daxil edin:");
             //int b = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Operate Daxil Edin:");
+            //char op = Convert.ToChar(Console.ReadLine());
+
+            //switch (op)
+            //{
+            //    case '+':
+            //        Console.WriteLine(a + b);
+            //        break;
+            //    case '-':
+            //        Console.WriteLine(a - b);
+            //        break;
+            //    case '*':
+            //        Console.WriteLine(a * b);
+            //        break;
+            //    case '/':
+            //        if(b == 0)
+            //        {
+            //            Console.WriteLine("0 - a bolme yoxdur!");
+            //            break;
+            //        }
+            //        Console.WriteLine(a / b);
+
+            //        break;
+            //    case '%':
+            //        Console.WriteLine(a % b);
+            //        break;
+            //    case '^':
+            //        Console.WriteLine(Math.Pow(a,b));
+            //        break;
+            //}
 
             // 19 _____________________
 
@@ -289,33 +319,73 @@ namespace Algorithms
 
             // 22 _____________________
 
-            for (int i = 0; i < 100; i++)
-            {
-                int teyinolunmus = 34;
-                Console.WriteLine(i);
-                for (int say = 1; say <= 5; say++)
-                {
-                    int eded = Convert.ToInt32(Console.ReadLine());
-                    if (eded == teyinolunmus)
-                    {
-                        Console.WriteLine("You Won");
-                        break;
-                    }
-                    else if(say == 5)
-                    {
-                        Console.WriteLine("Game Over");
-                    }
-                }  
-                break;
-            }
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    int teyinolunmus = 34;
+            //    Console.WriteLine(i);
+            //    for (int say = 1; say <= 5; say++)
+            //    {
+            //        int eded = Convert.ToInt32(Console.ReadLine());
+            //        if (eded == teyinolunmus)
+            //        {
+            //            Console.WriteLine("You Won");
+            //            break;
+            //        }
+            //        else if(say == 5)
+            //        {
+            //            Console.WriteLine("Game Over");
+            //        }
+            //    }  
+            //    break;
+            //}
 
             // 23 _____________________
 
-            // Kvadratin, duzbucaqli dordbucagin, ucbucagin sahelerini hesablayan alqoritm yazin
+            //Console.WriteLine("Kavdratda a = b olur");
+            //Console.WriteLine("Duzbucaqli dorbucaqda a != b olur");
+            //Console.WriteLine("Terefleri Daxil Edin:");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //int sahe = 1;
+
+            //if (a == b)
+            //{
+            //    sahe = a * a;
+            //    Console.WriteLine("Kvadratin sahesi:" + sahe);
+            //}
+            //else
+            //{
+            //    sahe = 2 * (a + b);
+            //    Console.WriteLine("Duzbucaqli Dordbucaq Sahesi:" + sahe);
+            //}
+
+            //Console.WriteLine("Duzbucaqli Ucbucagin Tereflerini Daxil Edin:");
+            //int c = Convert.ToInt32(Console.ReadLine());
+            //int d = Convert.ToInt32(Console.ReadLine());
+            //int e = Convert.ToInt32(Console.ReadLine());
+            //int ucbucaqsahe = (c * d)/5;
+            //Console.WriteLine("Ucbucagin Sahesi:" + " " + ucbucaqsahe);
 
             // 24 _____________________
 
-            // Verilmis ededin polindron oldugunu yoxlayin (1221, 3443) (String convertsiz)
+            //int eded = Convert.ToInt32(Console.ReadLine());
+            //int original = eded;
+            //int tersinecevrilmis = 0;
+            //while (eded > 0)
+            //{
+            //    int reqem = eded % 10;
+            //    tersinecevrilmis = tersinecevrilmis * 10 + reqem;
+            //    eded = eded / 10;
+            //}
+
+            //if (original == tersinecevrilmis)
+            //{
+            //    Console.WriteLine("Polindromdur");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Polindrom Deyil");
+            //}
         }
     }
 }
